@@ -1,5 +1,5 @@
 PODS:
-  - BPLeaksFinder (1.0.1)
+  - BPLeaksFinder (1.1.1)
 
 DEPENDENCIES:
   - BPLeaksFinder (from `./`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "./"
 
 SPEC CHECKSUMS:
-  BPLeaksFinder: cbf76657e64eef389ac2cdf8eb45dc38bac6ac86
+  BPLeaksFinder: 47fbb0d86603d740fed10cf690ac7ddd1ddec70c
 
 PODFILE CHECKSUM: 35aad3608504287a1e32d17394c216a5b2119566
 
