@@ -12,7 +12,13 @@
 
 #import <Foundation/Foundation.h>
 
-@interface MLeakedObjectProxy : NSObject
+@protocol MLeakedObjectProxyDelegate <NSObject>
+
+- (void)retainCycle;
+
+@end
+
+@interface MLeakedObjectProxy : NSObject <MLeakedObjectProxyDelegate>
 
 + (BOOL)isAnyObjectLeakedAtPtrs:(NSSet *)ptrs;
 + (void)addLeakedObject:(id)object;
