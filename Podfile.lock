@@ -1,12 +1,16 @@
 PODS:
-  - FBRetainCycleDetector (0.1.2)
+  - BPLeaksFinder (1.1.1)
 
 DEPENDENCIES:
-  - FBRetainCycleDetector
+  - BPLeaksFinder (from `./`)
+
+EXTERNAL SOURCES:
+  BPLeaksFinder:
+    :path: "./"
 
 SPEC CHECKSUMS:
-  FBRetainCycleDetector: 45462f9ed1af0cd77224a4cc4e6dacaca47371b4
+  BPLeaksFinder: 47fbb0d86603d740fed10cf690ac7ddd1ddec70c
 
-PODFILE CHECKSUM: 38741d1572d2c8740a441bc6562c61fa2ce1ef2e
+PODFILE CHECKSUM: 35aad3608504287a1e32d17394c216a5b2119566
 
-COCOAPODS: 1.0.0
+COCOAPODS: 1.9.3
